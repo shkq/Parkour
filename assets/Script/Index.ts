@@ -51,7 +51,7 @@ export default class Index extends cc.Component {
 
     if (this.createBlockFlag > this.templateHeight) {
       this.createNewBlock()
-      this.createBlockFlag = 0
+      this.createBlockFlag -= this.templateHeight
     }
   }
 }
