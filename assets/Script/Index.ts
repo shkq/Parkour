@@ -31,12 +31,13 @@ export default class Index extends cc.Component {
 
   createNewBlock() {
     const block = this.blockPool.get()
+
     block.y = this.templateHeight * (this.wave - 2)
     block.x = 0
     block.parent = this.foregroundNode
     this.templateQueue.push(block)
 
-    if (this.wave > 5) {
+    if (this.wave > 4) {
       const reuseNode = this.templateQueue.shift()
       this.blockPool.put(reuseNode)
     }
