@@ -1,0 +1,24 @@
+{
+  "name": "Parkour",
+  "version": "1.0.0",
+  "description": "Hello world new project template.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d build/web-mobile"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cocos-laboratory/Parkour.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cocos-laboratory/Parkour/issues"
+  },
+  "homepage": "https://github.com/cocos-laboratory/Parkour#readme",
+  "devDependencies": {
+    "gh-pages": "^1.1.0"
+  }
+}
